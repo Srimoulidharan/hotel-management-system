@@ -1,0 +1,70 @@
+package com.hotel.model;
+
+public class Guest {
+    private int id;
+    private String fullName;
+    private String email;
+    private String phone;
+    private String idProof;
+    private String address;
+
+    public Guest() {
+    }
+
+    public Guest(int id, String fullName, String email, String phone, String idProof, String address) {
+        this.id = id;
+        this.fullName = fullName;
+        this.email = email;
+        this.phone = phone;
+        this.idProof = idProof;
+        this.address = address;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getIdProof() {
+        return idProof;
+    }
+
+    public void setIdProof(String idProof) {
+        this.idProof = idProof;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
